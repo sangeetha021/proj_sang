@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "employee")
 public class Employee {
  private String employeeId;
+  private String employeeId;
     private String employeeName;
     private String jobType;
     private String address;
